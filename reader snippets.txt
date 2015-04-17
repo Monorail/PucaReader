@@ -3,5 +3,16 @@
 alert(document.getElementById("up.name_first").tHead.innerHTML);
 <a class="fancybox.ajax fancybox-send" onclick="return false;" href="/trades/sendcard/2653827"><div class="btn btn-primary btn-sm">Send Card</div></a>
 
-return header
-alert(document.getElementsByClassName("table infinite table-striped table-bordered cards-show")[0].tHead.innerHTML);
+alert(document.getElementsByClassName("table infinite table-striped table-bordered cards-show")[0].tHead.innerHTML); //returns header row
+
+alert(document.getElementsByClassName("table infinite table-striped table-bordered cards-show")[0]);//returns header row element?
+
+alert(document.getElementsByClassName("first")[0]);//returns card row element?
+alert(document.getElementsByClassName("first")[0].innerHTML);//returns card row element html?
+alert(document.getElementsByClassName("first")[0].innerText);//returns card row element html?
+
+alert(document.getElementsByClassName("cb")[0].innerText);//get first card name
+
+card_2653827_39999
+alert(document.getElementByID("uc_2653827"));
+alert(document.getElementByID("uc_2653827").tHead.innerHTML);
